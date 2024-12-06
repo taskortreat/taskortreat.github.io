@@ -1,0 +1,154 @@
+:root {
+  --primary-color: #4a90e2;
+  --primary-hover: #357abd;
+  --background-color: #f5f7fa;
+  --card-background: #ffffff;
+  --text-color: #2c3e50;
+  --border-color: #e1e8ed;
+  --shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+}
+
+.App {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+h1 {
+  color: var(--text-color);
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+form {
+  background: var(--card-background);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+label {
+  font-weight: 600;
+  color: var(--text-color);
+  font-size: 0.95rem;
+}
+
+input, textarea {
+  padding: 0.75rem;
+  border: 2px solid var(--border-color);
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.2s ease;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: var(--primary-hover);
+}
+
+.document-preview {
+  background: var(--card-background);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  padding: 3rem;
+  margin: 2rem auto;
+  width: 8.5in;
+}
+
+.rule-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.rule-line {
+  height: 1px;
+  background-color: var(--border-color);
+  width: 100%;
+}
+
+.separator {
+  text-align: center;
+  font-weight: 700;
+  color: var(--text-color);
+  margin: 2rem 0;
+  font-size: 1.1rem;
+}
+
+.treat-section {
+  margin-top: 2rem;
+}
+
+.description {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.download-btn {
+  background-color: #2ecc71;
+  margin: 2rem auto;
+  display: block;
+}
+
+.download-btn:hover {
+  background-color: #27ae60;
+}
+
+@media print {
+  .download-btn {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .App {
+    padding: 1rem;
+  }
+  
+  .document-preview {
+    width: 100%;
+    padding: 1.5rem;
+  }
+} 
