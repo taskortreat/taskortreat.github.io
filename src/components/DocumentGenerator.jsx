@@ -62,7 +62,7 @@ function DocumentGenerator() {
             value={formData.treat}
             onChange={handleChange}
             required
-            placeholder="cookies, candy, a gift card, etc."
+            placeholder="cookies, candy, a gift card, etc. A treat can even be a task. Something like: Take your batteries to battery recycling."
           />
         </div>
         <div>
