@@ -57,8 +57,7 @@ function DocumentGenerator() {
         </div>
         <div>
           <label htmlFor="treat">Treat to expect if they don't need anything done:</label>
-          <input
-            type="text"
+          <textarea
             id="treat"
             name="treat"
             value={formData.treat}
