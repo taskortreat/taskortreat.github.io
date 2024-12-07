@@ -5,7 +5,7 @@ function About() {
       <p>The idea came about from listening to several podcasts about the benefits of giving, combined with the idea of service hours for school, and a drive to engage more with the people in my local community.</p>
       <p>Around the time of Giving Tuesday, my podcast feed exploded with episodes about the importance of giving and the benefits of doing good. 
         I'm fairly busy with everyday life so, while this was inspiring, I was looking for an easy way to give to others what was straight-forward, but also provided an opportinity to interact directly with them.</p>
-      <p>My childern's school also has a requirement for service hours they need to meet each year so I was trying to figure out a way I could incorporate that into my giving activities.
+      <p>My children's school also has a requirement for service hours they need to meet each year so I was trying to figure out a way I could incorporate that into my giving activities.
         Last year my wife had the inspired idea of going door to door and collecting things that could be recycled but weren't handled by normal curbside recycling as part of a service project.
         It was a great idea and I appreciated the fact that it also served as a way to engage with the community. This was also the inspiration for incorporating the "Trick or Treat" aspect of Task or Treat.</p>
       <p>Many people are facing a crisis of loneliness and disconnection in our communities. Doing kind acts for each other is one possible way to combat that and could encourage interaction and connection.</p>  
