@@ -60,7 +60,7 @@ const MyDocument = ({ data }) => (
         <Text>{DocumentTemplate.sections.treat(data).contactInfo.value}</Text>
         <Text>{'\n'}</Text>
         <Text style={{ fontStyle: 'italic' }}>
-          For more information please visit: https://taskortreat.com.
+          For more information please visit: https://www.taskortreat.com.
         </Text>
       </View>
     </Page>
@@ -93,7 +93,7 @@ function GeneratedDocument({ data }) {
           </div>
         </div>
         <p style={{ marginTop: '20px', fontStyle: 'italic' }}>
-          For more information please visit: <a href="https://taskortreat.com" target="_blank" rel="noopener noreferrer">https://taskortreat.com</a>.
+          For more information please visit: <a href="https://www.taskortreat.com" target="_blank" rel="noopener noreferrer">https://www.taskortreat.com</a>.
         </p>
       </div>
       <PDFDownloadLink
