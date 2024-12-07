@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import GeneratedDocument from './GeneratedDocument';
+import Introduction from './Introduction';
 
 function DocumentGenerator() {
   const [formData, setFormData] = useState({
@@ -31,6 +32,7 @@ function DocumentGenerator() {
 
   return (
     <div>
+      <Introduction />
       <form onSubmit={handleSubmit}>
         <input
           type="text"
